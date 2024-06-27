@@ -1,0 +1,25 @@
+
+1.延迟插件下载地址
+https://github.com/rabbitmq/rabbitmq-delayed-message-exchange/releases
+
+2.将下载的文件拷贝到plugins这个文件夹下,如rabbitmq_delayed_message_exchange-3.10.0.ez
+
+3.打开CMD窗口,路径选择进入到sbin文件夹下,输入命令：rabbitmq-plugins enable rabbitmq_delayed_message_exchange
+【不要带版本号】
+
+4.重启Rabbitmq
+./rabbitmq-server.bat start
+./rabbitmq-server.bat stop
+
+
+
+
+
+
+
+
+
+
+
+
+
